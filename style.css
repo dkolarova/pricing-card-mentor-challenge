@@ -52,8 +52,6 @@ body{
 .left-section, .right-section{
  width: 100%;
  height: 100%;
- display: inline-block;
- vertical-align: top;
 }
 
 .title{
@@ -69,10 +67,6 @@ body{
  color: var(--GrayishBlue);
 }
 
-/* .container-2{
-  display: flex;
-} */
-
 .left-section{
   background-color: var(--Cyan);
 }
@@ -84,6 +78,8 @@ body{
 }
 
 .div-left-section{
+  display: flex;
+  align-items: center;
   color: var(--LightGray);
 }
 
