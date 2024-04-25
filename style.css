@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root{
+  --Cyan: #2ab2af;
+  --Cyan2: #2EBFBD;
+  --BrightYellow: #c0df34;
+  --LightGray:  #e5eff5;
+  --GrayishBlue: #98a6bd;
+  --font-family: "Karla", sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--LightGray);
+  font-family: var(--font-family);
+  color: white;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+.container{
+  width: 600px;
+  height: 500px;
+  box-shadow: 2px 3px 7px 0 rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.top-section, .left-section, .right-section{
+  padding: 29px;
+}
+
+.top-section{
+  width: 100%;
+  height: 42%;
+}
+
+.container-2{
+  width: 100%;
+  height: 60%;
+}
+
+.left-section, .right-section{
+ width: 50%;
+ height: 100%;
+ display: inline-block;
+}
+
+.top-section{
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.title{
+ color: var(--Cyan);  
+}
+
+.h4-top-section{
+  color: var(--BrightYellow);
+  font-weight: bold;
+}
+
+.p-top-section{
+ color: var(--GrayishBlue);
+}
+
+.container-2{
+  display: flex;
+}
+
+.left-section{
+  background-color: var(--Cyan);
+}
+
+.h4-left-section{
+  margin-top: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.div-left-section{
+  color: var(--LightGray);
+}
+
+span{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 0px 0px 2px rgba(66, 68, 90, 1);
+  margin-right: 7px;
+}
+
+.p-left-section{
+  margin-bottom: 49px;
+}
+
+.sign-up-btn{
+  background-color: var(--BrightYellow);
+  width: 100%;
+  border: none;
+  padding: 14px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.sign-up-btn:hover{
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.h4-rigth-section{
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.right-section{
+  background-color: var(--Cyan2);
+}
+
+.list-right-section, li{
+  padding: 0;
+  list-style: none;
+  color: var(--LightGray);
+  margin-bottom: 4px;
+}
